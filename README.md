@@ -6,6 +6,7 @@ Este repositório demonstra como hospedar páginas HTML estáticas de forma ráp
 * **Estrutura de arquivos:** Organizando seus arquivos HTML, CSS e JavaScript para implantação.
 * **Implantação:** Processo simples de implantação do seu site no Vercel.
 * **Acesso ao site:** Como obter e usar o URL exclusivo do seu site Vercel.
+* **Framework Preset:** Como lidar com a seleção de presets ao implantar arquivos HTML estáticos.
 * **Recursos adicionais:** Uma breve visão geral dos recursos extras do Vercel, como a CLI e integrações com Git.
 
 ## Começando
@@ -34,7 +35,10 @@ Este repositório demonstra como hospedar páginas HTML estáticas de forma ráp
     * Faça login no Vercel.
     * Clique em "Import Project".
     * Selecione o repositório Git onde você armazenou seus arquivos HTML ou arraste e solte a pasta do seu projeto.
-    * Clique em "Deploy".
+    * **Framework Preset:**
+        * O Vercel tentará detectar automaticamente o framework.
+        * Para arquivos HTML estáticos, pode ser necessário selecionar "Other" ou "No Framework Selected".
+        * Clique em "Deploy".
 4.  **Acesse seu site:**
     * O Vercel irá gerar um URL exclusivo para o seu site.
     * Acesse seu site usando este URL.
@@ -53,7 +57,7 @@ Este repositório demonstra como hospedar páginas HTML estáticas de forma ráp
 
 ## Palavras-chave
 
-Vercel, hospedagem gratuita, HTML, CSS, JavaScript, site estático, implantação, web development.
+Vercel, hospedagem gratuita, HTML, CSS, JavaScript, site estático, implantação, web development, framework preset.
 
 ## Links Úteis
 
